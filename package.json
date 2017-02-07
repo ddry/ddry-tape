@@ -1,0 +1,23 @@
+{
+  "name": "ddry-tape",
+  "version": "4.6.3",
+  "description": "Optional dependency wrapper mounting Tape JS as ddry test harness",
+  "repository": {
+    "type": "git",
+    "url": "ddry/ddry-tape"
+  },
+  "files": [
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "ddry",
+    "tape"
+  ],
+  "author": "Vassiliy Pimkin <vassiliy.pimkin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ddry": "0.0.2",
+    "tape": "^4.6.3"
+  }
+}

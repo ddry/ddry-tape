@@ -4,10 +4,12 @@
 
 Optional dependency wrapper mounting Tape JS as **ddry** test harness.
 
-Includes [ddry](https://www.npmjs.com/package/ddry) v0.0.2 and [Tape](https://www.npmjs.com/package/tape) v4.6.3.
+Includes [ddry](https://www.npmjs.com/package/ddry) v0.0.3 and [Tape](https://www.npmjs.com/package/tape) v4.6.3.
 
 Version reflects Tape version, so your `package.json` remains clean yet informative, and **ddry** core remains accessible via
 
 ```coffee
 DataDriven = require 'ddry'
 ```
+
+**ddry** activity is reflected in semver pre-release area.

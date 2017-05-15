@@ -3,7 +3,7 @@
   "version": "4.6.3-d0.0.4",
   "description": "Optional dependency wrapper mounting Tape JS as ddry test harness",
   "scripts": {
-    "test": "make test && make coveralls"
+    "test": "make coveralls"
   },
   "repository": {
     "type": "git",
@@ -11,8 +11,10 @@
   },
   "files": [
     "LICENSE",
-    "README.md"
+    "README.md",
+    "bin/"
   ],
+  "bin": "bin/ddry-tape",
   "keywords": [
     "ddry",
     "tape"
@@ -20,13 +22,10 @@
   "author": "Vassiliy Pimkin <vassiliy.pimkin@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ddry": "0.0.4",
+    "ddry": "0.1.19",
     "tape": "^4.6.3"
   },
   "devDependencies": {
-    "coveralls": "^2.11.16",
-    "mocha": "^3.2.0",
-    "mocha-lcov-reporter": "^1.2.0",
-    "tap-spec": "^4.1.1"
+    "ddry-mocha-tape": "0.1.19"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "ddry-tape",
-  "version": "4.6.3-d0.0.4",
+  "version": "4.6.3-d0.1.19",
   "description": "Optional dependency wrapper mounting Tape JS as ddry test harness",
   "scripts": {
     "test": "make coveralls"

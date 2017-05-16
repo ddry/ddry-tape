@@ -22,10 +22,10 @@
   "author": "Vassiliy Pimkin <vassiliy.pimkin@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "ddry": "0.1.19",
+    "ddry": "0.1.20",
     "tape": "^4.6.3"
   },
   "devDependencies": {
-    "ddry-mocha-tape": "0.1.19"
+    "ddry-mocha-tape": "0.1.20"
   }
 }
